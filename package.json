@@ -1,6 +1,6 @@
 {
   "name": "wade-bootstrap-material-design",
-  "version": "0.5.13",
+  "version": "0.5.14",
   "description": "Material Design for Bootstrap 3",
   "main": "scripts/index.js",
   "engines": {
