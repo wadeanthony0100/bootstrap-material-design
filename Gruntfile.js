@@ -212,7 +212,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: "sass",
           src: ["bootstrap-material-design.scss", "ripples.scss"],
-          dest: "dist/sassc", // added to gitignore, only used for local testing
+          dest: "../dist/sassc", // added to gitignore, only used for local testing
           ext: ".css"
         }]
       }
@@ -294,11 +294,11 @@ module.exports = function (grunt) {
       },
       material: {
         src: "dist/css/bootstrap-material-design.css",
-        dest: "dist/css/bootstrap-material-design.min.css"
+        dest: "../dist/css/bootstrap-material-design.min.css"
       },
       ripples: {
         src: "dist/css/ripples.css",
-        dest: "dist/css/ripples.min.css"
+        dest: "../dist/css/ripples.min.css"
       }
     },
 
@@ -306,17 +306,17 @@ module.exports = function (grunt) {
     copy: {
       material: {
         src: "scripts/material.js",
-        dest: "dist/js/material.js"
+        dest: "../dist/js/material.js"
       },
       ripples: {
         src: "scripts/ripples.js",
-        dest: "dist/js/ripples.js"
+        dest: "../dist/js/ripples.js"
       },
       fonts: {
         expand: true,
         cwd: "fonts/",
         src: "**",
-        dest: "dist/fonts/",
+        dest: "../dist/fonts/",
         flatten: true,
         filter: "isFile"
       }
