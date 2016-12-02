@@ -42,7 +42,7 @@ $body-bg: #EEEEEE !default;
 @import '_import-bs-sass';
 
 // Bootstrap Material Design variables start with mdb-
-$mdb-brand-inverse: $indigo !default;
+$mdb-brand-inverse: $light-blue !default;
 
 
 /* ANIMATION */
@@ -154,7 +154,7 @@ $mdb-btn-font-size-sm: 12px !default;
 $mdb-btn-font-size-xs: 10px !default;
 
 
-$mdb-btn-background-color: $body-bg; //transparent !default;
+$mdb-btn-background-color: $body-bg !default;
 $mdb-btn-background-color-text: $mdb-text-color-primary !default;
 
 
